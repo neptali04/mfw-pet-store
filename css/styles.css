@@ -26,10 +26,77 @@ header h1{
    color:#5c433f;
    background-color: #EEDDCD; 
 }
+
 .nav-pills > li.active > a:hoover, .product button:hover, footer a:hoover{
     background-color:#EDF1F4;
     color:#5c433f;
 }
+
 nav li{
     font-size:15px;
 }
+
+a:hoover{
+    text-decoration: none;
+}
+
+nav{
+    top:20px;
+}
+.jumbotron{
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-attachment: center;
+    height: 500px;
+}
+.jumbotron h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:#fff;
+}
+.featured{
+    margin-bottom: 60px;
+}
+.product{
+    /* background-color: #EEDDCD; */
+    border-radius: 5%;
+    border: 5px solid rgba(252,252,252);
+}
+.img-box{
+    margin: 10px,0;
+}
+.product button{
+    margin-bottom: 10px;
+    background-color: rgba(252,252,252);
+    border: 1px solid #5c433f;
+}
+/* SERVICES SECTION */
+.product, aside a, footer{
+    background-color: #EEDDCD;
+}
+.footer{
+    padding-top: 20px;
+    max-height:100%;
+}
+.footer a{
+    color: #5c433f;
+}
+footer img{
+    height: 90px;                                                                                                               
+}
+.contact_info{
+    padding:15px 0 0 40px;
+    border-right:1px solid #333333;
+    border-left:1px solid #333333;
+}
+.social{
+    padding-top:15px;
+    margin-top:10px 0 15px 0;
+    color: #333333;
+}
+/* @media(max-width:768px){
+    -centered
+    -nav 
+    -social 
+    -aside
+} */
