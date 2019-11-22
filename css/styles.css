@@ -63,7 +63,8 @@ nav{
     border: 5px solid rgba(252,252,252);
 }
 .img-box{
-    margin: 10px,0;
+    margin-top: 10px 0;
+
 }
 .product button{
     margin-bottom: 10px;
